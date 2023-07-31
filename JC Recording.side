@@ -1,0 +1,175 @@
+{
+  "id": "9012b3ed-8c91-44c7-970d-ccbd25283848",
+  "version": "2.0",
+  "name": "JC Recording",
+  "url": "https://dch-ecomplatform.com",
+  "tests": [{
+    "id": "8314dedf-f75a-46a2-9226-d4fb5a04e10e",
+    "name": "Download JC Inventory",
+    "commands": [{
+      "id": "ed10cbde-1804-40ca-9de3-f48e2cab6258",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d315927a-7e43-4cbd-9de8-cdd9d81f7341",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b50f9fa4-307c-417d-8249-69e0c66eac8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='app']/div/section/aside/div/ul/li[4]/div", "xpath:idRelative"],
+        ["xpath=//li[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12616a97-1888-43a8-a8f1-d82af814b61f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active > span",
+      "targets": [
+        ["css=.ant-menu-item-active > span", "css:finder"],
+        ["xpath=//ul[@id='productManage$Menu']/li[7]/span", "xpath:idRelative"],
+        ["xpath=//li[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'商品库存监控')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de50468-cfcc-4746-bd87-324984db94bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.store-tree-selector-picker > .ant-btn",
+      "targets": [
+        ["css=.store-tree-selector-picker > .ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/section/main/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'飞利浦线上门店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af9d91d-cb11-4ee5-8484-98771185fb84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-popover-open",
+      "targets": [
+        ["css=.ant-popover-open", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/section/main/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'飞利浦线上门店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf33178-773e-426b-8538-1bbc02896b24",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ant-popover-open",
+      "targets": [
+        ["css=.ant-popover-open", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/section/main/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'飞利浦线上门店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f12ad34-f527-4429-97e7-f18c8a4d13ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-tree-treenode-switcher-open:nth-child(3) > .ant-tree-child-tree .ant-tree-title",
+      "targets": [
+        ["css=.ant-tree-treenode-switcher-open:nth-child(3) > .ant-tree-child-tree .ant-tree-title", "css:finder"],
+        ["xpath=//li[3]/ul/li/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f522e15-13b7-4583-92a5-a37c5589dedb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.layout > .ant-btn",
+      "targets": [
+        ["css=.layout > .ant-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/section/main/div[2]/div/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'导出商品库存')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51ae9193-be0a-46d4-8b8a-d5ba866e1d86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-tag",
+      "targets": [
+        ["css=.ant-tag", "css:finder"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 ~ 428')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba0f95b-0297-4435-a78b-912f16898b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.ant-btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'确认导出')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba3028f-c539-4188-8673-30d9c641623a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-modal-confirm-btns > .ant-btn",
+      "targets": [
+        ["css=.ant-modal-confirm-btns > .ant-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'知道了')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85fae9e9-ab1c-4fc9-a25b-96ea9e8c1fbf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.store-tree-selector-picker > .ant-btn",
+      "targets": [
+        ["css=.store-tree-selector-picker > .ant-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/section/main/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'赛马会逆境同行食物援助计划线上门店')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e99241-848e-41a5-9f30-5a425755134b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab1dbc3c-1b6b-4ef8-abcb-adf54d265535",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8314dedf-f75a-46a2-9226-d4fb5a04e10e"]
+  }],
+  "urls": ["https://dch-ecomplatform.com/"],
+  "plugins": []
+}
